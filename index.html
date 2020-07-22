@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+        <form id="add">
+            <div class="form-group">
+                <label for="add1">1st Mumber</label>
+                <input id="add1" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="add2">2nd Mumber</label>
+                <input id="add2" type="text" class="form-control">
+            </div>
+            <button type="submit" class="btn">Add</button>
+        </form>
+        <div id="output"></div> 
+    </div>
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>   
 </body>
 </html>
