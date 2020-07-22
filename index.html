@@ -10,18 +10,75 @@
 <body>
     <h1>Calculator</h1>
     <div class="container">
-        <form id="add">
-            <div class="form-group">
-                <label for="add1">1st Mumber</label>
-                <input id="add1" type="text" class="form-control">
+        <h1>Add</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <form id="add">
+                    <div class="form-group">
+                        <label for="add1">1st Mumber</label>
+                        <input id="add1" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="add2">2nd Mumber</label>
+                        <input id="add2" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Add</button>
+                </form>
+                <div id="output"></div> 
             </div>
-            <div class="form-group">
-                <label for="add2">2nd Mumber</label>
-                <input id="add2" type="text" class="form-control">
+            <!-- form 1 Add -->
+
+            <div class="col-md-3">
+                <h1>Substract</h1>
+                <form id="sub">
+                    <div class="form-group">
+                        <label for="sub1">1st Mumber</label>
+                        <input id="sub1" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="sub2">2nd Mumber</label>
+                        <input id="sub2" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Substract</button>
+                </form>
+                <div id="output2"></div> 
             </div>
-            <button type="submit" class="btn">Add</button>
-        </form>
-        <div id="output"></div> 
+            <!-- Form 2 Substract -->
+
+            <div class="col-md-3">
+                <h1>Divide</h1>
+                <form id="divide">
+                    <div class="form-group">
+                        <label for="divide1">1st Mumber</label>
+                        <input id="divide1" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="divide2">2nd Mumber</label>
+                        <input id="divide2" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-info">Divide</button>
+                </form>
+                <div id="output3"></div> 
+            </div>
+            <!-- Form 3 Divide -->
+
+            <div class="col-md-3">
+                <h1>Multiply</h1>
+                <form id="mult">
+                    <div class="form-group">
+                        <label for="mult1">1st Mumber</label>
+                        <input id="mult1" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="mult2">2nd Mumber</label>
+                        <input id="mult2" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Multiply</button>
+                </form>
+                <div id="output4"></div> 
+            </div>
+            <!-- Form 4 multiply -->
+        </div>
     </div>
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>   
